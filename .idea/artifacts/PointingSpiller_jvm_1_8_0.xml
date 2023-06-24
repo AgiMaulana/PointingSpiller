@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PointingSpiller-jvm-1.8.0">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="PointingSpiller-jvm-1.8.0.jar">
+      <element id="module-output" name="PointingSpiller.jvmMain" />
+    </root>
+  </artifact>
+</component>

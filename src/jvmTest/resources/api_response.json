@@ -1,0 +1,175 @@
+{
+  "SessionId": 43021,
+  "SessionUniqueId": "220ce943-181e-4d1b-ae3f-4b6705bf77c7",
+  "Players": [
+    {
+      "TimeJoined": "2023-06-18T10:19:03.9682373Z",
+      "LastActivity": "2023-06-18T10:21:59.2559572Z",
+      "PlayerId": "627b73f5-7342-4a70-8e2b-ff050b93a389",
+      "Name": "Bob",
+      "Points": "1",
+      "IsObserver": false
+    },
+    {
+      "TimeJoined": "2023-06-18T10:19:20.1836184Z",
+      "LastActivity": "2023-06-18T10:21:59.2559572Z",
+      "PlayerId": "668848e7-98ae-46e1-89df-1d2d67466db7",
+      "Name": "Alice",
+      "Points": "",
+      "IsObserver": false
+    },
+    {
+      "TimeJoined": "2023-06-18T10:19:20.1836184Z",
+      "LastActivity": "2023-06-18T10:21:59.2559572Z",
+      "PlayerId": "668848e7-98ae-46e1-89df-1d2d67466db7",
+      "Name": "Andrew",
+      "Points": "2",
+      "IsObserver": false
+    },
+    {
+      "TimeJoined": "2023-06-18T10:19:20.1836184Z",
+      "LastActivity": "2023-06-18T10:21:59.2559572Z",
+      "PlayerId": "668848e7-98ae-46e1-89df-1d2d67466db7",
+      "Name": "James",
+      "Points": "3",
+      "IsObserver": false
+    },
+    {
+      "TimeJoined": "2023-06-18T10:19:20.1836184Z",
+      "LastActivity": "2023-06-18T10:21:59.2559572Z",
+      "PlayerId": "668848e7-98ae-46e1-89df-1d2d67466db7",
+      "Name": "David",
+      "Points": "2",
+      "IsObserver": false
+    },
+    {
+      "TimeJoined": "2023-06-18T10:19:32.3264029Z",
+      "LastActivity": "2023-06-18T10:19:32.3264029Z",
+      "PlayerId": "ac16e21e-6ef1-4a62-9dbf-6d7609bf0440",
+      "Name": "Mike",
+      "Points": "",
+      "IsObserver": true
+    }
+  ],
+  "AllPlayerVoted": false,
+  "CurrentTime": "2023-06-18T10:22:05.558908Z",
+  "StartTime": "2023-06-18T10:19:03.9682373Z",
+  "SessionStats": {
+    "SecondsElapsed": 6,
+    "PointVotes": [
+      {
+        "Points": "",
+        "Votes": 2
+      }
+    ],
+    "AveragePointValue": 0
+  },
+  "TurnArchive": [
+    {
+      "Id": "0bc78800-9c43-4ba4-8dcf-6411752f8551",
+      "StoryDescription": null,
+      "SessionStats": {
+        "SecondsElapsed": 175,
+        "PointVotes": [
+          {
+            "Points": "1",
+            "Votes": 1
+          },
+          {
+            "Points": "2",
+            "Votes": 1
+          }
+        ],
+        "AveragePointValue": 1.5
+      },
+      "ArchiveTime": "2023-06-18T10:21:59.2559572Z",
+      "Players": [
+        {
+          "TimeJoined": "2023-06-18T10:19:03.9682373Z",
+          "LastActivity": "2023-06-18T10:21:59.2559572Z",
+          "PlayerId": "627b73f5-7342-4a70-8e2b-ff050b93a389",
+          "Name": "Bob",
+          "Points": "1",
+          "IsObserver": false
+        },
+        {
+          "TimeJoined": "2023-06-18T10:19:20.1836184Z",
+          "LastActivity": "2023-06-18T10:21:59.2559572Z",
+          "PlayerId": "668848e7-98ae-46e1-89df-1d2d67466db7",
+          "Name": "Alice",
+          "Points": "2",
+          "IsObserver": false
+        },
+        {
+          "TimeJoined": "2023-06-18T10:19:32.3264029Z",
+          "LastActivity": "2023-06-18T10:21:59.2559572Z",
+          "PlayerId": "ac16e21e-6ef1-4a62-9dbf-6d7609bf0440",
+          "Name": "Mike",
+          "Points": "",
+          "IsObserver": true
+        }
+      ]
+    }
+  ],
+  "StoryDescription": null,
+  "Options": {
+    "ShowStoryDescription": true,
+    "ShowHistory": true,
+    "PointValues": [
+      {
+        "Display": "0 points",
+        "Value": "0"
+      },
+      {
+        "Display": "&#189; point",
+        "Value": ".5"
+      },
+      {
+        "Display": "1 point",
+        "Value": "1"
+      },
+      {
+        "Display": "2 points",
+        "Value": "2"
+      },
+      {
+        "Display": "3 points",
+        "Value": "3"
+      },
+      {
+        "Display": "5 points",
+        "Value": "5"
+      },
+      {
+        "Display": "8 points",
+        "Value": "8"
+      },
+      {
+        "Display": "13 points",
+        "Value": "13"
+      },
+      {
+        "Display": "20 points",
+        "Value": "20"
+      },
+      {
+        "Display": "40 points",
+        "Value": "40"
+      },
+      {
+        "Display": "100 points",
+        "Value": "100"
+      },
+      {
+        "Display": "?",
+        "Value": "?"
+      }
+    ],
+    "PlayerCanShowVotes": true,
+    "ObserverCanShowVotes": false,
+    "PlayerCanResetVotes": true,
+    "ObserverCanResetVotes": false
+  },
+  "LastVotesClearedTime": "2023-06-18T10:21:59.2559572Z",
+  "PlayerActivity": []
+}
