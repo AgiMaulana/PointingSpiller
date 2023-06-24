@@ -1,5 +1,6 @@
 package presentation
 
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -17,7 +18,6 @@ import androidx.compose.ui.unit.dp
 import common.ComposeId.BUTTON
 import common.ComposeId.TEXT_FIELD
 import common.setId
-
 
 @Composable
 fun ApiUrlForm(
@@ -53,5 +53,13 @@ fun ApiUrlForm(
         ) {
             Text("Enter")
         }
+    }
+}
+
+@Preview
+@Composable
+fun ApiUrlFormPreview() {
+    ApiUrlForm {
+
     }
 }

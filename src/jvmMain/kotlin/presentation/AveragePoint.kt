@@ -1,5 +1,6 @@
 package presentation
 
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -58,4 +59,18 @@ private fun PointCounter(pointCounter: PointCounter, isHighest: Boolean = false)
             color = fontColor
         )
     }
+}
+
+@Preview
+@Composable
+fun AveragePointPreview() {
+    val averagePoint = PointingPoker.AveragePoint(
+        pointCounter = listOf(
+            PointCounter(3, 4),
+            PointCounter(2, 1),
+            PointCounter(1, 1)
+        ),
+        average = 3.5
+    )
+    AveragePoint(averagePoint)
 }

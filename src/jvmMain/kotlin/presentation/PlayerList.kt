@@ -1,5 +1,6 @@
 package presentation
 
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Text
@@ -15,11 +16,11 @@ fun PlayerList(
     players: List<PointingPoker.Player>,
     modifier: Modifier = Modifier
 ) {
-    Row {
-        Text("Player", modifier = Modifier.weight(1f), fontWeight = FontWeight.Bold)
-        Text("Point", modifier = Modifier.weight(1f), fontWeight = FontWeight.Bold)
-    }
     Column(modifier = modifier) {
+        Row {
+            Text("Player", modifier = Modifier.weight(1f), fontWeight = FontWeight.Bold)
+            Text("Point", modifier = Modifier.weight(1f), fontWeight = FontWeight.Bold)
+        }
         players.forEach { player ->
             Player(player, modifier = Modifier.setId(ComposeId.PLAYER))
         }
@@ -41,4 +42,15 @@ private fun Player(
             modifier = Modifier.weight(1f)
         )
     }
+}
+
+@Preview
+@Composable
+fun PlayerListPreview() {
+    val players = listOf(
+        PointingPoker.Player("Bob", 2),
+        PointingPoker.Player("Alice", 3),
+        PointingPoker.Player("Steve", 3),
+    )
+    PlayerList(players)
 }

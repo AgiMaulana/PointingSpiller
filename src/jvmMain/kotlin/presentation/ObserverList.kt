@@ -1,5 +1,6 @@
 package presentation
 
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -21,4 +22,14 @@ fun ObserverList(
             )
         }
     }
+}
+
+@Preview
+@Composable
+fun ObserverListPreview() {
+    val observers = listOf(
+        PointingPoker.Observer("James"),
+        PointingPoker.Observer("Cameroon"),
+    )
+    ObserverList(observers)
 }
